@@ -3,8 +3,8 @@ import csv
 import paramiko
 
 # Set source and destination directories for custom declaration documents
-src_dir = '/mnt/offload-custom-raw/'
-dest_dir = '/mnt/offload-custom-upload/'
+src_dir = '/data/offload-custom-raw/'
+dest_dir = '/data/offload-custom-upload/'
 
 # Set filename pattern for search
 filename_pattern = '*-raw.csv'
