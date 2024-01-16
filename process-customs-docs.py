@@ -35,7 +35,7 @@ with open(os.path.join(dest_dir, 'AWB_upload-list.csv'), mode='w', newline='') a
 remote_host = '52.152.140.6'
 remote_username = 'klombar'
 remote_password = 'e7_8dh6zp52'
-remote_dir = '/opt/intercom-process-daily/'
+remote_dir = '/data/intercom-process-daily/'
 
 # Upload file to remote server
 transport = paramiko.Transport((remote_host, 22))
